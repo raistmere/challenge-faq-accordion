@@ -1,11 +1,32 @@
-import './App.css'
+import "./App.css";
 
 function App() {
 
   return (
-    <>
-    Hello World
-    </>
+    <div id="wrapper">
+      <div className="faqBox">
+        <div className="header">
+          <img className="starIcon" src="src/assets/images/icon-star.svg" alt="A Star Icon" />
+          <h1 className="title">FAQs</h1>
+        </div>
+        <div className="questionBox">
+          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
+        </div>
+        <div className="questionBox">
+          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
+        </div>
+        <div className="questionBox">
+          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
+        </div>
+        <div className="questionBox">
+          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
+        </div>
+      </div>
+    </div>
   )
 }
 
