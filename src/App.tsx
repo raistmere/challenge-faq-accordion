@@ -14,15 +14,15 @@ function App() {
           <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
         </div>
         <div className="questionBox">
-          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <div className="questionText">Is Frontend Mentor Free?</div>
           <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
         </div>
         <div className="questionBox">
-          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <div className="questionText">Can I use Frontend Mentor projects in my portfolio?</div>
           <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
         </div>
         <div className="questionBox">
-          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
+          <div className="questionText">How can I get help if I'm stuck on a challenge?</div>
           <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
         </div>
       </div>

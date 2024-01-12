@@ -1,4 +1,21 @@
+/* Fonts*/
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url("src/assets/fonts/static/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: WorkSans-SemiBold;
+    src: url("src/assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: WorkSans-Bold;
+    src: url("src/assets/fonts/static/WorkSans-Bold.ttf");
+}
+
 * {
+    /* General */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,6 +25,11 @@
     --color-light-pink: hsl(275, 100%, 97%);
     --color-gray-purple: hsl(292, 16%, 49%);
     --color-dark-purple: hsl(292, 42%, 14%);
+
+    /* Fonts */
+    --font-reg: "WorkSans-Regular";
+    --font-semi: "WorkSans-SemiBold";
+    --font-bold: "WorkSans-Bold";
 }
 
 #wrapper {
@@ -15,39 +37,47 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
+
+    /* align-items: center; */
     justify-content: center;
-    padding: 30px;
+    padding: 30% 30px 30px 30px;
 
     /* CSS for background image */
     background-image: url(./assets/images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--color-light-pink);
+
+    /* Text */
+    font-family: var(--font-semi);
+    font-size: 16px;
 }
 
 .faqBox {
-    /* General properties*/
-    height: 500px;
-    padding: 20px;
+    /* General*/
+    height: fit-content;
+    padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     background-color: var(--color-White);
     
-    /* Border properties */
-    border-radius: 20px;
+    /* Border */
+    border-radius: 10px;
 }
 
 .faqBox .header{
-    /* General properties */
+    /* General */
     display: flex;
-    gap: 20px;
+    gap: 15px;
+
+    /* Text */
+    font-family: var(--font-bold);
 }
 
 .faqBox .header .starIcon {
-    /* General properties */
-    width: 10%;
+    /* General */
+    width: 25px;
 }
 
 .faqBox .questionBox {
@@ -55,6 +85,8 @@
     display: flex;
     gap: 20px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 
     /* Border */
     border-bottom-style: solid;
@@ -64,6 +96,10 @@
 
 @media screen and (min-width: 600px) {
     #wrapper {
+        /* General */
+        padding: 15% 30px 30px 30px;
+
+        /* CSS for background image */
         background-image: url(./assets/images/background-pattern-desktop.svg);
     }
 }
