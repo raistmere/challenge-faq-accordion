@@ -10,23 +10,30 @@ function App() {
           <img className="starIcon" src="src/assets/images/icon-star.svg" alt="A Star Icon" />
           <h1 className="title">FAQs</h1>
         </div>
-        <div className="questionBox">
-          <div className="questionText">What is FrontEnd Mentor, and how will it help me?</div>
-          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
-        </div>
-        <div className="questionBox">
-          <div className="questionText">Is Frontend Mentor Free?</div>
-          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
-        </div>
-        <div className="questionBox">
-          <div className="questionText">Can I use Frontend Mentor projects in my portfolio?</div>
-          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
-        </div>
-        <div className="questionBox">
-          <div className="questionText">How can I get help if I'm stuck on a challenge?</div>
-          <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
-        </div>
-      <Question />
+        <Question 
+          question={"What is FrontEnd Mentor, and how will it help me?"} 
+          answer={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} 
+        />
+        <Question 
+          question={"What is FrontEnd Mentor, and how will it help me?"} 
+          answer={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} 
+        />
+        <Question 
+          question={"What is FrontEnd Mentor, and how will it help me?"} 
+          answer={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} 
+        />
+        <Question 
+          question={"What is FrontEnd Mentor, and how will it help me?"} 
+          answer={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} 
+        />
+        <Question 
+          question={"What is FrontEnd Mentor, and how will it help me?"} 
+          answer={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} 
+        />
+        <Question 
+          question={"What is FrontEnd Mentor, and how will it help me?"} 
+          answer={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} 
+        />
       </div>
     </div>
   )

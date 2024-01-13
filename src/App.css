@@ -55,6 +55,8 @@
 
 .faqBox {
     /* General*/
+    min-width: 300px;
+    max-width: 500px;
     height: fit-content;
     padding: 20px 20px 20px 20px;
     display: flex;
