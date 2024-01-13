@@ -1,4 +1,5 @@
 import "./App.css";
+import Question from "./components/Question/Question.tsx";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <div className="questionText">How can I get help if I'm stuck on a challenge?</div>
           <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
         </div>
+      <Question />
       </div>
     </div>
   )
