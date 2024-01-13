@@ -55,8 +55,7 @@
 
 .faqBox {
     /* General*/
-    min-width: 300px;
-    max-width: 500px;
+    width: 300px;
     height: fit-content;
     padding: 20px 20px 20px 20px;
     display: flex;
@@ -82,20 +81,6 @@
     width: 25px;
 }
 
-.faqBox .questionBox {
-    /* General */
-    display: flex;
-    gap: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-
-    /* Border */
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: var(--color-light-pink);
-}
-
 @media screen and (min-width: 600px) {
     #wrapper {
         /* General */
@@ -103,5 +88,10 @@
 
         /* CSS for background image */
         background-image: url(./assets/images/background-pattern-desktop.svg);
+    }
+
+    .faqBox {
+        /* General */
+        width: 500px;
     }
 }

@@ -1,4 +1,6 @@
 * {
+    /* General */
+
     /* Colors */
     --color-White: hsl(0, 0%, 100%);
     --color-light-pink: hsl(275, 100%, 97%);
@@ -17,7 +19,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-    padding-bottom: 20px;
 
     /* Border */
     border-bottom-style: solid;
@@ -29,11 +30,14 @@
     /* General */
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 
 }
 
 .answerBox p {
-    /*  */
+    /* General */
+    padding-bottom: 20px;
+    
     /* Text */
     font-family: var(--font-reg);
     color: var(--color-gray-purple);
