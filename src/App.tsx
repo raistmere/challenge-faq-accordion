@@ -1,6 +1,6 @@
 import "./App.css";
 import Question from "./components/Question/Question.tsx";
-import starIcon from "src/assets/images/icon-star.svg";
+import starIcon from "./assets/images/icon-star.svg";
 
 function App() {
 
