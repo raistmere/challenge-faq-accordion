@@ -1,6 +1,6 @@
 import { useState } from "react";
 import style from "./Question.module.css";
-// import plusIcon from "../../../public/assets/images/icon-plus.svg";
+import plusIcon from "../../assets/images/icon-plus.svg";
 
 interface Props {
     question : String;
@@ -21,7 +21,7 @@ const Question = (props : Props) => {
             <div className={style.wrapper}>
                 <button className={style.questionBox} aria-label="open" onClick={changeHiddenState}>
                     <p>{props.question}</p>
-                    <img src="../../../public/assets/images/icon-plus.svg" alt="A Plus Icon" />
+                    <img src={plusIcon} alt="A Plus Icon" />
                 </button>
                 <div className={style.answerBox}>
                     <p className={style.hidden}>{props.answer}</p>
