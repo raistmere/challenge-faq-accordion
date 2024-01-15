@@ -47,10 +47,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--color-light-pink);
-
-    /* Text */
-    font-family: var(--font-semi);
-    font-size: 16px;
 }
 
 .faqBox {
@@ -70,10 +66,11 @@
 .faqBox .header{
     /* General */
     display: flex;
-    gap: 15px;
+    gap: 20px;
 
     /* Text */
     font-family: var(--font-bold);
+    font-size: 18px;
 }
 
 .faqBox .header .starIcon {

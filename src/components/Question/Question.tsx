@@ -18,12 +18,10 @@ const Question = (props : Props) => {
         return (
 
             <div className={style.wrapper}>
-                <div className={style.questionBox}>
+                <button className={style.questionBox} aria-label="open" onClick={changeHiddenState}>
                     <p>{props.question}</p>
-                    <button aria-label="open" onClick={changeHiddenState}>
-                        <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
-                    </button>
-                </div>
+                    <img src="src/assets/images/icon-plus.svg" alt="A Plus Icon" />
+                </button>
                 <div className={style.answerBox}>
                     <p className={style.hidden}>{props.answer}</p>
                 </div>
@@ -33,12 +31,10 @@ const Question = (props : Props) => {
     else {
         return (
             <div className={style.wrapper}>
-                <div className={style.questionBox}>
+                <button className={style.questionBox} aria-label="close" onClick={changeHiddenState}>
                     <p>{props.question}</p>
-                    <button aria-label="close" onClick={changeHiddenState}>
-                        <img src="src/assets/images/icon-minus.svg" alt="A Minus Icon" />
-                    </button>
-                </div>
+                    <img src="src/assets/images/icon-minus.svg" alt="A Minus Icon" />
+                </button>
                 <div className={style.answerBox}>
                     <p>{props.answer}</p>
                 </div>
