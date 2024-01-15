@@ -1,5 +1,6 @@
 import "./App.css";
 import Question from "./components/Question/Question.tsx";
+import starIcon from "src/assets/images/icon-star.svg";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <div id="wrapper">
       <div className="faqBox">
         <div className="header">
-          <img className="starIcon" src="src/assets/images/icon-star.svg" alt="A Star Icon" />
+          <img className="starIcon" src={starIcon} alt="A Star Icon" />
           <h1 className="title">FAQs</h1>
         </div>
         <Question 
